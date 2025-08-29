@@ -1,21 +1,19 @@
-name: pizzaapp
-description: "A new Flutter project."
+name: user_repository
+description: A Dart package for managing user data and authentication.
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.0
 
 environment:
   sdk: ^3.9.0
 dependencies:
   flutter:
     sdk: flutter
+  firebase_auth: 
   cupertino_icons: ^1.0.8
-  firebase_core: ^2.16.2
-  bloc: 
-  flutter_bloc: 
-  equatable: 
-
-  user_repository:
-    path: packages/user_repository
+  firebase_storage: 
+  cloud_firestore: 
+  rxdart: ^0.28.0
+  flutter_logs: ^2.2.1
 
 dev_dependencies:
   flutter_test:
